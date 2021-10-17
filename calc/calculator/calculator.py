@@ -47,7 +47,7 @@ def multiply(m, n):
 def subtract(m, n):
     result = m
     if n < 0:
-        for i in range(n):  # Corrected: before it was m
+        for i in range(abs(n)):  # Corrected: before it was m
             result += 1
     else:
         for i in range(n):  # Corrected: before it was m
